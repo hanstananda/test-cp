@@ -72,8 +72,8 @@ int get_sign(int a)
     }
 }
 
-const int N = 100102;
-int f1[N], f2[N];
+const int N = 250102;
+int f1[N+2], f2[N+2];
 
 int query(int *f, int n)
 {

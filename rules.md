@@ -35,4 +35,4 @@
 5. An answer to a question is only available to the contestant who has asked it apart from the cases when the contest jury decides that the question is important for all contestants. In this case the jury can make the question and the answer to it available to all contestants.
 
 ## Final Scoring 
-The contest organizers are solely responsible for determining the correctness of submitted runs. They are empowered to adjust for or adjudicate unforeseen events and conditions. Their decisions are final. 
+The contest organizers are solely responsible for determining the correctness of submitted splutions. They are empowered to adjust for or adjudicate unforeseen events and conditions. Their decisions are final. 

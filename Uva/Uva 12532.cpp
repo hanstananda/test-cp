@@ -126,8 +126,11 @@ int main()
     {
         memset(f1, 0, N);
         memset(f2, 0, N);
-        vi prev(n, 0);
-        repp(x, 1, n)
+        vi prev(n+2, 0);
+        // if(n>N) {
+        //     printf("111\n");
+        // }
+        for(int x=1;x<=n;x++)
         {
             int a;
             cin>>a;
@@ -136,15 +139,15 @@ int main()
             prev[x] = get_sign(a);
             insert(f1, f2, x, prev[x]);
         }
-        repp(x, 1, k)
+        for(int x=1;x<=k;x++)
         {
-            string cmd;
+            char cmd;
             int a, b;
             // printf("test\n");
             cin>>cmd>>a>>b;
             // scanf("%s %d %d", &cmd, &a, &b);
             // printf("%s %d %d",cmd,a,b);
-            if (cmd[0] == 'C')
+            if (cmd == 'C')
             {
                 // update
                 int val = get_sign(b);
@@ -192,6 +195,7 @@ int main()
         cout<<"\n";
         // printf("\n");
     }
+    cout<<"\n";
     return 0;
 }
 
